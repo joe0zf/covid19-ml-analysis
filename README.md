@@ -38,10 +38,12 @@ pip install -r requirements.txt
 ```text
 covid19-ml-analysis/
 ├── data/
+|   ├── processed/
+|   ├── raw/
 ├── notebooks/
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_supervised_learning.ipynb
-│   └── 03_unsupervised_learning.ipynb
+│   ├── preprocessing.ipynb
+│   ├── supervised-learning.ipynb
+│   └── unsupervised-learning.ipynb
 ├── models/
 ├── requirements.txt
 └── README.md
